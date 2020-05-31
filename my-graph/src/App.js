@@ -21,9 +21,9 @@ import News from "./Component/News/news";
 import ContactUs from "./Component/ContectUs/contect";
 import About from "./Component/About/about";
 
-// if (localStorage.token) {
-//   setAuthToken(localStorage.token);
-// }
+if (localStorage.token) {
+  setAuthToken(localStorage.token);
+}
 
 function App() {
   useEffect(() => {
