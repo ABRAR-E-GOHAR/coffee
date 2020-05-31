@@ -1,0 +1,97 @@
+#userTableImage {
+    height: 100vh;
+    background-size: cover;
+}
+
+#userTableText {
+    color: lavenderblush;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#userTableBookinText {
+    font-size: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px #000000;
+    /* margin-left: 100px; */
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    #userTableBookinText {
+        font-size: 30px;
+    }
+}
+
+.userTableTags {
+    height: 50px;
+    width: 220px;
+    font-size: 20px;
+    border: 4px double rgb(92, 0, 0);
+    background-color: rgb(255, 230, 230);
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 10px #a0a0a0;
+}
+
+#userInsideData {
+    text-align: center;
+}
+
+#userTableInputBtn {
+    background-color: rgb(2, 146, 151);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#userTableInputBtn:hover {
+    background-color: #8d6b2b;
+    color: white;
+}
+
+/* booking table */
+
+#bookingDiv {
+    text-align: center;
+    color: white;
+    /* margin-top: 50px; */
+}
+
+#bookingTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+
+#bookingTable td, #bookingTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#bookingTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    width: 1000px;
+}
+
+#line{
+    width: 60%;
+    opacity: 0.5;
+}

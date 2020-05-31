@@ -1,0 +1,16 @@
+.bs-example {
+    margin: 20px;
+}
+
+#logo-navbar {
+    background-color: black!important;
+    position: sticky;
+}
+
+.nav-link {
+    color: white!important;
+}
+
+.navbar-brand {
+    color: white!important;
+}

@@ -1,0 +1,249 @@
+.adminDelCard {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
+  height: 30rem;
+}
+
+.adminDelCards {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .adminDelCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .adminDelCards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+#adminDeletionh1 {
+  color: white;
+  text-shadow: 1px 1px 6px #000000;
+  font-size: 3vw;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#UpdationForm {
+  display: none;
+  position: relative;
+  bottom: 40px;
+}
+
+/* Updation form code starts here  */
+
+.adminUpdationInputFeilds {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-size: large;
+}
+
+/* Add a background color when the inputs get focus */
+
+.adminUpdationInputFeilds:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+
+.updationButtons {
+  background-color: #4CAF50;
+  color: white;
+  /* padding: 1px 20px; */
+  margin: 8px 0;
+  font-size: x-large;
+  border: none;
+  cursor: pointer;
+  /* width: 40px; */
+  opacity: 0.9;
+}
+
+.updationButtons:hover {
+  opacity: 1;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+
+.updationButtons {
+  /* float: left; */
+  width: 10%;
+  text-align: center;
+}
+
+#updateAlone {
+  width: 50%;
+}
+
+/* Add padding to container elements */
+
+.updationContainer {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 90%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+
+.updationModalContent {
+  background-color: #1f1d1d;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid rgb(0, 0, 0);
+  width: 30%;
+  /* Could be more or less, depending on screen size */
+  height: 60% !important;
+}
+
+/* Style the horizontal ruler */
+
+.updationHorizontalLine {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+
+.updationClose {
+  position: absolute;
+  right: 35px;
+  /* top: 2px; */
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.updationClose:hover, .updationClose:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.updationFormText {
+  color: white;
+  font-size: large;
+  text-shadow: 1px 1px 6px #000000;
+}
+
+/* -------grid code------ */
+
+.adminDashCards {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  margin-top: 70px;
+}
+
+.adminCard {
+  background-color: dodgerblue;
+  color: black;
+  padding: 1rem;
+  height: 33rem;
+}
+
+.productImges {
+  width: 100%;
+  height: 100%;
+}
+
+.productDataDiv {
+  top: -330px;
+  position: relative;
+  height: 100%;
+  display: none;
+  background-color: black;
+  color: blue;
+  text-align: center;
+  position: relative;
+}
+
+.adminCard:hover .productDataDiv {
+  display: block;
+}
+
+#buttonDivAdmin {
+  /* border: 1px solid white; */
+  position: relative;
+  bottom: -155px;
+}
+
+.adminCardBtn{
+  margin-right: 10px;
+}
+
+/* media quries for grid */
+
+@media (max-width: 1366px) {
+  .adminDashCards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+  .adminDashCards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .adminDashCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 550px) {
+  .adminDashCards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 525px) {
+  .adminDashCards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+#noProductMsg{
+  color: white;
+  text-align: center;
+}

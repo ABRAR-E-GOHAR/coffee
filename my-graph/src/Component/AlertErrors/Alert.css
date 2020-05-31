@@ -1,0 +1,11 @@
+#alertComponentDiv {
+    border: 1px solid red;
+    text-align: center;
+    color: white;
+    background-color: red;
+    z-index: 1;
+}
+
+#alertComponentDiv h3 {
+    line-height: 7px;
+}

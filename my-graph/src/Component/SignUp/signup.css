@@ -1,0 +1,69 @@
+body {
+    background-image: url('https://static.emarsys.com/uploads/2019/11/newsletter_background-17.jpg');
+    background-size: cover;
+}
+
+.signUpBox {
+    width: 400px;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #040C0E;
+    text-align: center;
+}
+
+.signUpBox h1 {
+    color: #BE9063;
+    text-transform: uppercase;
+}
+
+#givingPathToLogIn {
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#givingPathToLogIn:hover {
+    color: #BE9063;
+}
+
+.signUpTextFeilds {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 12px auto;
+    text-align: center;
+    border: 2px solid #525B56;
+    padding: 14px 10px;
+    width: 200px;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.signUpTextFeilds:focus {
+    width: 280px;
+    border-color: #BE9063;
+}
+
+.signUpBox #signUpBtn {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #BE9063;
+    padding: 14px 40px;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.30;
+    cursor: pointer;
+}
+
+.signUpBox #signUpBtn:hover {
+    background: #BE9063;
+}

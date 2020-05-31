@@ -1,0 +1,12 @@
+.navPagination {
+    text-align: center;
+}
+
+.pagelink {
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.pagelink:hover{
+    cursor: pointer;
+}

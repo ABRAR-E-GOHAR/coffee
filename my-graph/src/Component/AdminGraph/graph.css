@@ -1,0 +1,41 @@
+.Img {
+  height: 100px;
+  width: 120px;
+}
+
+#admintexture {
+  color: rgb(161, 159, 159);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+  text-shadow: 0 0 3px rgb(255, 255, 255)
+}
+
+.card-zoom {
+  transition: transform .6s;
+}
+
+.card-zoom:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.card {
+  margin: auto;
+}
+
+.row {
+  width: 80%;
+  margin: auto;
+}
+
+.card-title {
+  font-size: large;
+  text-align: center;
+}
+
+.card-text {
+  font-size: larger;
+  text-align: center;
+}

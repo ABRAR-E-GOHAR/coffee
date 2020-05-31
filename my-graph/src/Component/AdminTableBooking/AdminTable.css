@@ -1,0 +1,39 @@
+#adminbookingDiv {
+  text-align: center;
+  color: white;
+}
+#adminTableText {
+  font-size: xx-large;
+  font-family: "IBM Plex Serif", serif;
+  text-shadow: 2px 2px 8px #000000;
+  margin-top: 0px;
+}
+#adminbookingDiv {
+  background-image: url("./Images/adminTableCover.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+}
+#adminbookingTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-top: 30px;
+  position: relative;
+  left: 375px;
+}
+
+#adminbookingTable td,
+#adminbookingTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#adminbookingTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+  width: 1000px;
+}

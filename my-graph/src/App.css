@@ -1,0 +1,108 @@
+
+
+.space {
+  margin-top: 10px;
+}
+
+tbody tr {
+  line-height: 30px;
+  color: white;
+  text-align: center;
+  
+
+}
+
+
+.bor {
+  line-height:50px ;
+  border-bottom-right-radius: 20px; 
+  
+}
+
+
+.bor1 {
+  border: 2px solid silver;
+  border-radius: 10px; 
+  border-bottom-left-radius: 0px;
+}
+
+@media screen and (max-width: 575px) {
+  .pad-for-fixing {
+    padding-top: 92px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .pad-for-fixing {
+    padding-top: 56px;
+  }
+}
+
+.my-nav, .my-nav-item {
+  height: 100%;
+  background: black;
+  color: white;
+  cursor:pointer
+}
+
+.my-nav-item:hover {
+  height: 100%;
+  background:olive;
+  color:white;
+}
+
+.my-nav-sub-items {
+  margin-left: 30px;
+}
+.my-nav-sub-items:hover {
+  margin-left: 30px;
+  background:yellowgreen;
+  color:black;
+}
+
+
+
+.carousel-item {
+  align-items:center;
+  margin-top: 40px;
+  border: 6px solid black;
+  border-radius: 18px; 
+}
+
+
+.landing {
+  position: relative;
+  background: url('./components/ui/Layout/pic.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+.landing-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.landing-inner button {
+margin-top: 500px;
+}
+
+.nave {
+  margin-right: 20px;
+}
+
+.btn-gap button {
+  margin: 3px 10px;
+}
+
+.gap {
+  margin-right: 6px;
+  margin-top: 3px;
+}
+
+.alert-msg {
+ font-size: 15px;
+}
+
+.logout {
+  text-align: right;
+  background-color: black;
+}

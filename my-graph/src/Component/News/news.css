@@ -1,0 +1,67 @@
+.parallax {
+  /* The image used */
+  background-image: url("./Images/newsImage.png");
+  /* Set a specific height */
+  min-height: 600px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#NewsHeading {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* margin-left: 200px; */
+  font-size: 5vw;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#theNewsTwxt {
+  height: 1000px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  text-align: center;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+#internalNewsText {
+  font-size: large;
+  text-align: justify;
+  padding: 0px 20px 0px 20px;
+}
+
+@media screen and (max-width:600px) {
+  #internalNewsText {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width:900px) {
+  #theNewsTwxt {
+    height: 1500px;
+  }
+}
+
+/* New The Bottom Images Code Starts Here */
+
+.newsImage1 {
+  /* display: block; */
+  margin: auto;
+  margin-top: 100px;
+  width: 400px;
+  transform: rotate(5deg);
+  box-shadow: 10px 10px 15px 3px darkgrey;
+  -webkit-backface-visibility: hidden;
+  transition: all 0.5s;
+  margin-right: 10px;
+}
+
+.newsImage1:hover {
+  width: 500px;
+  transform: rotate(0deg);
+  box-shadow: 20px 20px 15px 3px darkgrey;
+  -webkit-backface-visibility: hidden;
+  transition: all 0.5s;
+}
